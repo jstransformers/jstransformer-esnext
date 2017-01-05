@@ -1,30 +1,23 @@
-# JSTransformer Boilerplate
+# jstransformer-esnext
 
-Use JSTransformer Boilerplate to create and update transformers.
+[ESNext](https://github.com/esnext/esnext) support for [JSTransformers](http://github.com/jstransformers).
 
-1. Visit [the Boilerplate Wiki](https://github.com/jstransformers/boilerplate/wiki) on how to get started
-2. Remove this top notice from any transformers
-
-# jstransformer-foo
-
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-foo/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-foo)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-esnext/master.svg)](https://travis-ci.org/jstransformers/jstransformer-esnext)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-esnext/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-esnext)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-esnext/master.svg)](http://david-dm.org/jstransformers/jstransformer-esnext)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-esnext.svg)](https://www.npmjs.org/package/jstransformer-esnext)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-esnext
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'));
+var esnext = require('jstransformer')(require('jstransformer-esnext'));
 
-foo.render('blah').body
-//=> 'blah'
+esnext.render('list.map(function(item) { return item.name; })').body
+//=> 'list.map(item => item.name)'
 ```
 
 ## License

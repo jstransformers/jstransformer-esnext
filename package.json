@@ -4,7 +4,7 @@
   },
   "name": "jstransformer-esnext",
   "version": "0.1.0",
-  "description": "ESNext support for JSTransformers.",
+  "description": "esnext support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],

@@ -1,6 +1,6 @@
 # jstransformer-esnext
 
-[ESNext](https://github.com/esnext/esnext) support for [JSTransformers](http://github.com/jstransformers).
+[esnext](https://github.com/esnext/esnext) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-esnext/master.svg)](https://travis-ci.org/jstransformers/jstransformer-esnext)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-esnext/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-esnext)

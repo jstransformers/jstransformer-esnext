@@ -1,5 +1,7 @@
 # jstransformer-esnext
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-esnext.svg)](https://greenkeeper.io/)
+
 [esnext](https://github.com/esnext/esnext) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-esnext/master.svg)](https://travis-ci.org/jstransformers/jstransformer-esnext)

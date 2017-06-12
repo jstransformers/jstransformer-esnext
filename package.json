@@ -3,7 +3,7 @@
     "esnext": "^3.0.9"
   },
   "name": "jstransformer-esnext",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "esnext support for JSTransformers.",
   "keywords": [
     "jstransformer"
@@ -13,7 +13,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",

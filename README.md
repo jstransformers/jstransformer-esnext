@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var esnext = require('jstransformer')(require('jstransformer-esnext'));
+var esnext = require('jstransformer')(require('jstransformer-esnext'))
 
 esnext.render('list.map(function(item) { return item.name; })').body
 //=> 'list.map(item => item.name)'
